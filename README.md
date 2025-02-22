@@ -24,12 +24,16 @@ Projeto conceitual de um Banco de Dados feito para o desafio de projeto **"Refin
 
 - Um cliente pode comprar mais de um pedido. Este tem um tempo de carência para devolução do produto
 
+- Pode cadastrar mais de uma forma de pagamento
+
 #### **Pedido**
 - Os pedidos são criados por clientes e possuem informações de compra, endereço e status de entrega
 
 - Um produto ou mais compõem o pedido
 
 - O pedido pode ser cancelado
+
+- Cada pedido possui uma entrega
 
 #### **Fornecedor**
 - Um fornecedor pode disponibilizar um ou mais produtos
@@ -38,3 +42,17 @@ Projeto conceitual de um Banco de Dados feito para o desafio de projeto **"Refin
 - Um estoque pode ter um ou mais produtos
 
 - Um estoque possui determinada quantidade de um produto
+
+#### **Pagamento**
+- Cada pagamento possui um tipo
+
+- Cada pagamento possui o status (realizado, em atraso etc.)
+
+- Cada pagamento está associado a apenas um cliente
+
+#### **Entrega**
+- Cada entrega deve conter o status
+
+- Cada entrega possui um código de rastreio
+
+- Cada entrega está associada a um pedido

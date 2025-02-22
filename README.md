@@ -11,9 +11,11 @@ Projeto conceitual de um Banco de Dados feito para o desafio de projeto **"Refin
 #### **Produto**
 - Os produtos são vendidos por uma única plataforma online. Contudo, estes podem ter vendedores distintos (terceiros)
 
-- Cada produto possui um fornecedor
+- Cada tipo de produto pode possuir um ou mais fornecedores
 
 - Um ou mais produtos podem compor um pedido
+
+- Cada tipo de produto podem estar em estoques diferentes
 
 #### **Cliente**
 - O cliente pode se cadastrar no site com seu CPF ou CNPJ
@@ -29,4 +31,10 @@ Projeto conceitual de um Banco de Dados feito para o desafio de projeto **"Refin
 
 - O pedido pode ser cancelado
 
-#### **F**
+#### **Fornecedor**
+- Um fornecedor pode disponibilizar um ou mais produtos
+
+#### **Estoque**
+- Um estoque pode ter um ou mais produtos
+
+- Um estoque possui determinada quantidade de um produto
